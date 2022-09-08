@@ -1,0 +1,22 @@
+{
+    "name": "apstore/apsolutions",
+    "description": "Loja online de materias recondicionados",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "core\\" : "core/"
+        },
+        "files": [
+            "config.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Anderson Pedro APSolutions"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.2",
+        "mpdf/mpdf": "^8.0"
+    }
+}
